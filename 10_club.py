@@ -1,4 +1,3 @@
-try:
     edad=int(input("Ingrese su edad: "))
     if edad<0:
         print("Edad inválida")
@@ -10,5 +9,3 @@ try:
             print("Bienvenido!")
         else:
             print("Debe presentar documento")
-except ValueError:
-    print("Ingrese edad válida")
